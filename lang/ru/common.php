@@ -15,6 +15,6 @@ return [
     'publications' => 'Публикации',
     'contacts' => 'Контакты',
     'conversation_btn' => 'Начать диалог',
-    'publications & insights' => 'Публикации и аналитика'
-
+    'publications & insights' => 'Публикации и аналитика',
+    'read_also' => 'Читайте также',
 ];

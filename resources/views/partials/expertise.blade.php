@@ -1,29 +1,38 @@
-<div id="expertise" class="max-w-300 mx-auto py-30">
+<div id="expertise" class="max-w-300 mx-auto pt-30">
     <div class="max-w-180">
-        <h2 class="text-[52px] leading-13 font-bold">{!! __('expertise.title') !!}</h2>
-        <!-- <p class="mt-5 text-lg">Rather than repeat our practice areas, this section highlights selected figures from confirmed professional experience across transactions, financing, disputes, capital markets and digital assets.</p> -->
+        <h2 class="text-[52px] leading-13 font-medium">{!! __('expertise.title') !!}</h2>
     </div>
-    <div class="grid lg:grid-cols-[33%_66%] gap-6 mt-9">
-        <div class="flex flex-col justify-center items-center h-[540px] border border-[#D9E4FF] px-4 text-center gap-2">
-            <div @class(['font-medium text-[#004AFF]', 'text-3xl'=> app()->getLocale() === 'ru', 'text-5xl'=> app()->getLocale() === 'en'])>{!! __('expertise.value') !!}</div>
+    <div class="flex flex-col justify-end lg:h-130 bg-[#F2F2F2] p-16 mt-8">
+        <div class="text-6xl max-w-2xl font-medium">{!! __('expertise.experience') !!}</div>
+    </div>
+    <div class="grid lg:grid-cols-3 gap-6 mt-5">
+        <div class="flex gap-3 items-end">
+            <div class="text-7xl font-medium">13</div>
             <div>{!! __('expertise.value_desc') !!}</div>
         </div>
-        <div class="grid lg:grid-cols-2 gap-6">
-            <div class="flex flex-col justify-center items-center gap-2 h-[257px] border border-[#D9E4FF] text-center px-4">
-                <div class="text-5xl font-medium text-[#004AFF]">{!! __('expertise.offices') !!}</div>
-                <div>{!! __('expertise.offices_desc') !!}</div>
+        <div class="flex gap-3 items-end">
+            <div class="text-7xl font-medium">4</div>
+            <div>{!! __('expertise.offices_desc') !!}</div>
+        </div>
+        <div class="flex gap-3 items-end">
+            <div class="text-7xl font-medium">25+</div>
+            <div>{!! __('expertise.jurisdictions_desc') !!}</div>
+        </div>
+    </div>
+    <div class="mt-34">
+        <h2 class="text-6xl font-medium">{!! __('expertise.clients_rely') !!}</h2>
+        <div class="grid grid-cols-3 gap-8 mt-12">
+            <div>
+                <div class="text-2xl font-medium mb-4">{!! __('expertise.matter_calls') !!}</div>
+                <div>{!! __('expertise.combine') !!}</div>
             </div>
-            <div class="flex flex-col justify-center items-center h-[257px] border border-[#D9E4FF] gap-2">
-                <div class="text-5xl font-medium text-[#004AFF]">{!! __('expertise.partners') !!}</div>
-                <div>{!! __('expertise.partners_desc') !!}</div>
+            <div>
+                <div class="text-2xl font-medium mb-4">{!! __('expertise.confidentiality') !!}</div>
+                <div>{!! __('expertise.treat') !!}</div>
             </div>
-            <div class="flex flex-col justify-center items-center h-[257px]  bg-[#121A3B] text-white gap-2">
-                <div class="text-5xl font-medium">{!! __('expertise.experience') !!}</div>
-                <div>{!! __('expertise.experience_desc') !!}</div>
-            </div>
-            <div class="flex flex-col justify-center items-center h-[257px] border border-[#D9E4FF] text-center px-2 gap-2">
-                <div class="text-5xl font-medium text-[#004AFF]">{!! __('expertise.jurisdictions') !!}</div>
-                <div>{!! __('expertise.jurisdictions_desc') !!}</div>
+            <div>
+                <div class="text-2xl font-medium mb-4">{!! __('expertise.counsel') !!}</div>
+                <div>{!! __('expertise.objectives') !!}</div>
             </div>
         </div>
     </div>

@@ -15,5 +15,6 @@ return [
     'publications' => 'Publications',
     'contacts' => 'Contacts',
     'conversation_btn' => 'Start a conversation',
-    'publications & insights' => 'Publications & Insights'
+    'publications & insights' => 'Publications & Insights',
+    'read_also' => 'Read also',
 ];

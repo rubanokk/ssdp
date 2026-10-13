@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => 'Practices for complex cross-border mandates',
+    'title' => 'Practices',
     'description' => '<p>SSD Partners advises principals, founders, investors, boards and senior executives through focused practices where legal precision must be aligned with commercial strategy, capital structuring, regulatory exposure and risk control.</p><p>We focus on high-value mandates that require senior judgment, discretion and the ability to coordinate work across jurisdictions, financial systems and stakeholder groups.</p>',
     'corporate' => 'Corporate & M&A',
     'corporate_desc' => 'Private deals, acquisitions, exits, restructurings, joint ventures and governance for businesses and investors operating across multiple jurisdictions',

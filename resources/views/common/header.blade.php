@@ -1,19 +1,21 @@
-<header class="sticky inset-x-0 top-0 z-2 bg-[#F8FAFE]">
-    <div class="max-w-300 mx-auto h-30 flex items-center justify-between">
+<header class="sticky inset-x-0 top-0 z-2 bg-[#F2F2F2]">
+    <div class="max-w-300 mx-auto h-20 flex items-center justify-between">
         <div class="flex items-center gap-20">
             <a href="/" class="">
-                <div class="uppercase font-bold">SSD PARTNERS</div>
+                <svg class="w-30 h-9.5">
+                    <use xlink:href="#icon-logo" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                </svg>
             </a>
             <ul class="hidden lg:flex justify-center gap-10">
+                <li><a href="/#expertise">{!! __('common.expertise') !!}</a></li>
                 <li><a href="/#practices">{!! __('common.practices') !!}</a></li>
                 <li><a href="/#presence">{!! __('common.presence') !!}</a></li>
-                <li><a href="/#expertise">{!! __('common.expertise') !!}</a></li>
                 <li><a href="/#publications">{!! __('common.publications') !!}</a></li>
                 <!-- <li><a href="#">{!! __('common.contacts') !!}</a></li> -->
             </ul>
         </div>
         <div class="flex items-center gap-7">
-            
+
             <div class="flex items-center gap-2 text-lg">
                 <a href="{{ Route::localizedSwitcherUrl('en') }}" @class(['opacity-50'=> app()->getLocale() === 'en'])>
                     EN
@@ -24,7 +26,7 @@
                 </a>
             </div>
             <div
-                class="js-toggle-form flex justify-center items-center h-12 px-4 border border-[#B5CBF6] rounded cursor-pointer">
+                class="js-toggle-form flex justify-center items-center h-12 px-4 border border-(--primary-red) cursor-pointer">
                 {!! __('common.conversation_btn') !!}</div>
         </div>
     </div>

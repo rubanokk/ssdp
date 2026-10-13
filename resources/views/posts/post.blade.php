@@ -1,8 +1,6 @@
-<a href="/posts/{{ $post->slug }}" class="block py-6 lg:py-8 px-4 lg:px-8 border-t border-t-[#252525]">
-    @if ($post->preview)
-        <img src="{{ $post->preview }} " alt="">
-    @endif
-    <div class="text-xl lg:text-2xl">
+<article class="">
+    <a aria-label="{{ $post->title }}" href="/posts/{{ $post->slug  }}" class="inline text-2xl font-medium border-b border-(--primary-red)">
         {{ $post->title }}
-    </div>
-</a>
+    </a>
+    <div class="mt-4">{{ \Carbon\Carbon::parse($post->created_at)->isoFormat('D MMMM YYYY') }}</div>
+</article>
