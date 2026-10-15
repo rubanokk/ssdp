@@ -23,10 +23,9 @@
 
 :root {
   --primary-red: #D90429;
+  --primary-gray: #F2F2F2;
 }
 
 .error {
   border-color: red !important;
 }
-
- 

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\View\View;
 use App\Models\Post;
+use App\Models\Practice;
 
 
 class HomeController extends Controller
@@ -11,6 +12,7 @@ class HomeController extends Controller
     public function index(): View
     {
         $posts = Post::limit(2)->get();
-        return view('home.index', compact('posts'));
+        $practices = Practice::all();
+        return view('home.index', compact('posts', 'practices'));
     }
 }

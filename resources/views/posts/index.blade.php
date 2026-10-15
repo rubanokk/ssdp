@@ -4,6 +4,10 @@
 @section('description', '')
 
 @section('content')
-    <h1 class="text-6xl lg:text-8xl px-4 lg:px-8 mb-8">Posts</h1>
-    @each('posts/post', $posts, 'post')
+<div class="max-w-300 mx-auto px-4 lg:px-0">
+    <h1 class="text-5xl lg:text-6xl font-medium mt-20">{!! __('common.publications') !!}</h1>
+   <div class="grid lg:grid-cols-2 gap-12 mt-16">
+       @each('posts/post', $posts, 'post')
+    </div>
+</div>
 @endsection

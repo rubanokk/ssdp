@@ -1,4 +1,4 @@
-<header class="sticky inset-x-0 top-0 z-2 bg-[#F2F2F2]">
+<header class="sticky inset-x-0 top-0 z-2 bg-[#F2F2F2] px-4 lg:px-0">
     <div class="max-w-300 mx-auto h-20 flex items-center justify-between">
         <div class="flex items-center gap-20">
             <a href="/" class="">
@@ -10,12 +10,11 @@
                 <li><a href="/#expertise">{!! __('common.expertise') !!}</a></li>
                 <li><a href="/#practices">{!! __('common.practices') !!}</a></li>
                 <li><a href="/#presence">{!! __('common.presence') !!}</a></li>
-                <li><a href="/#publications">{!! __('common.publications') !!}</a></li>
+                <li><a href="/posts">{!! __('common.publications') !!}</a></li>
                 <!-- <li><a href="#">{!! __('common.contacts') !!}</a></li> -->
             </ul>
         </div>
-        <div class="flex items-center gap-7">
-
+        <div class="hidden lg:flex items-center gap-7">
             <div class="flex items-center gap-2 text-lg">
                 <a href="{{ Route::localizedSwitcherUrl('en') }}" @class(['opacity-50'=> app()->getLocale() === 'en'])>
                     EN
@@ -29,15 +28,32 @@
                 class="js-toggle-form flex justify-center items-center h-12 px-4 border border-(--primary-red) cursor-pointer">
                 {!! __('common.conversation_btn') !!}</div>
         </div>
+        <div class="js-menu-toggle h-11 w-12 lg:hidden flex justify-center items-center text-(--primary-red)">
+            <svg class="w-6 h-6">
+                <use xlink:href="#icon-ellipsis-vertical" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+            </svg>
+        </div>
     </div>
 </header>
 
 <div id="mobile-menu"
-    class="hidden fixed top-18 left-0 right-0 bottom-0 backdrop-blur-xl bg-woodsmoke-950/40 z-80 text-xl">
-    <ul class="flex flex-col justify-center items-center mt-16">
-        <li><a href="/#about" class="block py-4 px-4">Почему мы</a></li>
-        <li><a href="/#price" class="block py-4 px-4">Стоимость</a></li>
-        <li><a href="/#works" class="block py-4 px-4">Портфолио</a></li>
-        <li><a href="/#contacts" class="block py-4 px-4">Контакты</a></li>
+    class="-translate-x-full flex flex-col transition fixed top-18 left-0 right-0 bottom-0  bg-white z-80 px-4 py-8">
+    <ul class="flex flex-col gap-4 font-medium text-xl">
+        <li><a href="/#expertise">{!! __('common.expertise') !!}</a></li>
+        <li><a href="/#practices">{!! __('common.practices') !!}</a></li>
+        <li><a href="/#presence">{!! __('common.presence') !!}</a></li>
+        <li><a href="/posts">{!! __('common.publications') !!}</a></li>
     </ul>
+    <div class="js-toggle-form flex justify-center items-center h-12 px-4 border border-(--primary-red) cursor-pointer mt-8">
+        {!! __('common.conversation_btn') !!}</div>
+
+    <div class="flex items-center gap-2 text-lg mt-auto">
+        <a href="{{ Route::localizedSwitcherUrl('en') }}" @class(['opacity-50'=> app()->getLocale() === 'en'])>
+            EN
+        </a>
+        <span>|</span>
+        <a href="{{ Route::localizedSwitcherUrl('ru') }}" @class(['opacity-50'=> app()->getLocale() === 'ru'])>
+            RU
+        </a>
+    </div>
 </div>

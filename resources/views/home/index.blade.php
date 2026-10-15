@@ -6,7 +6,7 @@
 @section('content')
 
 <div class="bg-[#F2F2F2] relative">
-    <div class="max-w-300 mx-auto pt-30 pb-25">
+    <div class="max-w-300 mx-auto py-24 lg:pt-30 lg:pb-25 px-4 lg:px-4">
         <h1 @class(["text-5xl lg:text-[80px] lg:leading-21 font-medium mt-4", 'max-w-200'=> app()->getLocale() === 'en',
             'max-w-280'=> app()->getLocale() === 'ru'])>
             {!! __('hero.title') !!}
@@ -18,7 +18,7 @@
     </div>
 </div>
 @include('partials/expertise')
-@include('partials/practices')
+@include('partials/practices', ['practices' => $practices])
 @include('partials/presence')
 @include('partials/posts')
 

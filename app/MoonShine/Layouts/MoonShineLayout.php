@@ -12,6 +12,7 @@ use MoonShine\Contracts\ColorManager\PaletteContract;
 use App\MoonShine\Resources\Post\PostResource;
 use MoonShine\MenuManager\MenuItem;
 use App\MoonShine\Resources\Leads\LeadsResource;
+use App\MoonShine\Resources\Practice\PracticeResource;
 
 final class MoonShineLayout extends AppLayout
 {
@@ -33,6 +34,7 @@ final class MoonShineLayout extends AppLayout
             ...parent::menu(),
             MenuItem::make(PostResource::class, 'Posts'),
             MenuItem::make(LeadsResource::class, 'Leads'),
+            MenuItem::make(PracticeResource::class, 'Practices'),
         ];
     }
 
