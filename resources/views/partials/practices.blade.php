@@ -5,8 +5,8 @@
     </div>
     <div class="flex flex-col mt-9">
         @foreach ($practices as $item)
-        <a href="/practices/{{ $item->slug }}" class="flex items-center justify-between h-20 lg:h-30 border border-[#B3C1C8] border-b-0 last:border-b  px-8">
-            <div class="text-xl lg:text-2xl font-medium">{{ $item->title }}</div>
+        <a href="/practices/{{ $item->slug }}" class="flex items-center justify-between h-22 lg:h-30 border border-[#B3C1C8] border-b-0 last:border-b px-4 lg:px-8 hover:text-(--primary-red)">
+            <div class="text-lg lg:text-2xl font-medium">{{ $item->title }}</div>
             <div>
                 <svg class="w-10 h-10 text-(--primary-red)">
                     <use xlink:href="#icon-arrow" xmlns:xlink="http://www.w3.org/1999/xlink"></use>

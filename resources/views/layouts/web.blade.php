@@ -10,9 +10,6 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="yandex-verification" content="" />
     <meta name="google-site-verification" content="" />
-    <link href="https://fonts.googleapis.com" rel="preconnect"/>
-    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
@@ -24,9 +21,9 @@
     @include('common/footer')
     @include('common/form')
     @include('common/icons')
-    <!-- @env('production')
+    @env('production')
         @include('common/metrika')
-    @endenv -->
+    @endenv
 </body>
 
 </html>

@@ -11,7 +11,7 @@ return [
     'message_success' => 'Thank you. Your enquiry has been sent. A member of SSD Partners will review it and respond using the contact details you provided.',
     'practices' => 'Practices',
     'presence' => 'Global Presence',
-    'expertise' => 'Expertise',
+    'expertise' => 'Our Firm',
     'publications' => 'Publications',
     'contacts' => 'Contacts',
     'conversation_btn' => 'Start a conversation',
