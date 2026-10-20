@@ -15,6 +15,8 @@ use MoonShine\TinyMce\Fields\TinyMce;
 use MoonShine\UI\Components\FormBuilder;
 use MoonShine\UI\Components\Layout\Box;
 use MoonShine\UI\Fields\ID;
+use MoonShine\UI\Fields\Checkbox;
+
 use Throwable;
 use VI\MoonShineSpatieTranslatable\Fields\Translatable;
 
@@ -34,6 +36,8 @@ class PostFormPage extends FormPage
                 Translatable::make('Title', 'title')
                     ->priorityLanguages(['en', 'ru']),
                 Translatable::make('Content', 'content')->tinyMce()->priorityLanguages(['en', 'ru']),
+                Checkbox::make('Опубликовано', 'published'),
+
                 // TinyMce::make('Текст', 'content')->locale('ru')->addOption('sandbox_iframes_exclusions', 'vkvideo.ru'),
             ]),
         ];
