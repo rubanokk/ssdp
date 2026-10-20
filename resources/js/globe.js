@@ -56,22 +56,6 @@ for (const f of geo.features) {
     }
 }
 
-const customers = [
-    { lat: 37.77, lng: -122.42, name: 'San Francisco' },
-    { lat: 40.71, lng: -74.0, name: 'New York' },
-    { lat: 51.5, lng: -0.12, name: 'London' },
-    { lat: 52.52, lng: 13.4, name: 'Berlin' },
-    { lat: 35.68, lng: 139.69, name: 'Tokyo' },
-    { lat: -33.86, lng: 151.2, name: 'Sydney' },
-    { lat: 19.07, lng: 72.87, name: 'Mumbai' },
-    { lat: -23.55, lng: -46.63, name: 'São Paulo' },
-];
-
-const arcs = customers.slice(0, -1).map((c, i) => ({
-    startLat: c.lat, startLng: c.lng,
-    endLat: customers[i + 1].lat, endLng: customers[i + 1].lng,
-}));
-
 
 const world = Globe({ rendererConfig: { antialias: true, alpha: true } })
     (document.getElementById('globe'))
@@ -86,7 +70,6 @@ const world = Globe({ rendererConfig: { antialias: true, alpha: true } })
     .pointAltitude(0.004)
     .pointRadius(0.5)
     .pointsMerge(true)
-    .labelsData(customers)
     .labelLat('lat')
     .labelLng('lng')
     .labelText('name')

@@ -1,4 +1,4 @@
-<header class="sticky inset-x-0 top-0 z-2 bg-[#F2F2F2] px-4 lg:px-0">
+<header class="sticky inset-x-0 top-0 z-30 bg-[#F2F2F2] px-4 lg:px-0">
     <div class="max-w-300 mx-auto h-20 flex items-center justify-between">
         <div class="flex items-center gap-20">
             <a href="/" class="">

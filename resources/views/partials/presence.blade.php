@@ -17,9 +17,10 @@ $items = [
 'description' => __('presence.newyork_desc'),
 ],
 ];
+$countries = [ __('countries.Argentina'), __('countries.Uruguay'), __('countries.United Kingdom'), __('countries.France'), __('countries.Netherlands'), __('countries.Belgium'), __('countries.Portugal'), __('countries.Spain'), __('countries.Austria'), __('countries.Cyprus'), __('countries.Serbia'), __('countries.Bulgaria'), __('countries.Hungary'), __('countries.Israel'), __('countries.Russia'), __('countries.Romania'), __('countries.Armenia'), __('countries.Kazakhstan'), __('countries.Turkey'), __('countries.China'), __('countries.Indonesia'), __('countries.Thailand'), __('countries.Singapore'), __('countries.Australia'), __('countries.New Zealand')];
 @endphp
 
-<div class="bg-[#FAFAFA] bg-no-repeat lg:bg-cover bg-top-right" style="background-image: url('/images/map.svg')">
+<div class="bg-[#F2F2F2] bg-no-repeat lg:bg-cover bg-top-right" style="background-image: url('/images/map.svg')">
     <div id="presence" class="max-w-300 mx-auto py-16 lg:py-30 px-4 lg:px-0">
         <div class="max-w-245 px-4 lg:px-0">
             <h2 class="text-4xl lg:text-5xl font-medium"> {!! __('presence.title') !!}</h2>
@@ -33,5 +34,14 @@ $items = [
             </div>
             @endforeach
         </div>
+        <div class="mt-10">{{ __('countries.description') }}</div>
+        <div class="flex gap-3 items-start flex-wrap mt-4">
+        @foreach ($countries as $country)
+            <div class="px-2 py-1.5 bg-white">
+                {{ $country }}
+            </div>
+            @endforeach
+        </div>
+        
     </div>
 </div>
