@@ -17,4 +17,8 @@ return [
     'conversation_btn' => 'Начать диалог',
     'publications & insights' => 'Публикации и аналитика',
     'read_also' => 'Читайте также',
+    'privary_text' => 'Мы используем файлы cookie для улучшения работы сайта. Продолжая пользоваться сайтом, вы соглашаетесь с <a
+            href="/privacy.html" target="_blank" class="link">политикой конфиденциальности</a>.',
+    'privary_btn' => 'Принять',
+
 ];

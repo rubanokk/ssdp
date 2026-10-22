@@ -17,4 +17,7 @@ return [
     'conversation_btn' => 'Start a conversation',
     'publications & insights' => 'Publications & Insights',
     'read_also' => 'Read also',
+    'privary_text' => 'We use cookies to improve the operation of the website. By continuing to use the site, you agree to <a
+            href="/privacy.html " target="_blank" class="link">privacy policy</a>.',
+    'privary_btn' => 'Accept',
 ];

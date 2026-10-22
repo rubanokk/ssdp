@@ -21,6 +21,7 @@
     @include('common/footer')
     @include('common/form')
     @include('common/icons')
+    @include('common/cookie')
     @env('production')
         @include('common/metrika')
     @endenv
