@@ -20,5 +20,5 @@ return [
     'privary_text' => 'Мы используем файлы cookie для улучшения работы сайта. Продолжая пользоваться сайтом, вы соглашаетесь с <a
             href="/privacy.html" target="_blank" class="link">политикой конфиденциальности</a>.',
     'privary_btn' => 'Принять',
-
+    'read_about_our_firm' => 'Подробнее о фирме',
 ];

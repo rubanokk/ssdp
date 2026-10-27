@@ -15,7 +15,6 @@
             {!! __('hero.description') !!}
         </p>
         <div id="globe" class="w-20 h-20 lg:w-125 lg:h-125 absolute top-0 lg:right-0"></div>
-        <!-- <img src="/images/hero.svg" alt="" class="absolute right-0 bottom-0"> -->
     </div>
 </div>
 @include('partials/expertise')

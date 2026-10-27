@@ -1,6 +1,9 @@
 <div id="expertise" class="max-w-300 mx-auto pt-16 lg:pt-30 px-4 lg:px-0">
-    <div class="max-w-180">
+    <div class="flex flex-col lg:flex-row gap-4 justify-between lg:items-end">
         <h2 class="text-4xl lg:text-5xl font-medium">{!! __('expertise.title') !!}</h2>
+        <div>
+            <a href="/about" class="link">{!! __('common.read_about_our_firm') !!}</a>
+        </div>
     </div>
     <div class="flex flex-col justify-end h-100 lg:h-130 bg-[#F2F2F2] p-8 lg:p-16 mt-8">
         <div class="text-4xl lg:text-6xl max-w-2xl font-medium">{!! __('expertise.experience') !!}</div>

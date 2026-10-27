@@ -13,6 +13,7 @@ use App\MoonShine\Resources\MoonShineUserRole\MoonShineUserRoleResource;
 use App\MoonShine\Resources\Post\PostResource;
 use App\MoonShine\Resources\Leads\LeadsResource;
 use App\MoonShine\Resources\Practice\PracticeResource;
+use App\MoonShine\Resources\Page\PageResource;
 
 class MoonShineServiceProvider extends ServiceProvider
 {
@@ -28,6 +29,7 @@ class MoonShineServiceProvider extends ServiceProvider
                 PostResource::class,
                 LeadsResource::class,
                 PracticeResource::class,
+                PageResource::class,
             ])
             ->pages([
                 ...$core->getConfig()->getPages(),
