@@ -7,14 +7,26 @@
                     <use xlink:href="#icon-logo" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                 </svg>
                 <div class="">
-                    Ssd partners Ltd.<br>
+                    SSD partners Ltd.<br>
                     1, Tamchy Special Financial Investment Territory (SFIT), M0001, Tamchy, Kyrgyz Republic<br>
-                    Reg. № SFIT-RC-2026-1011
+                    Reg. № SFIT-RC-2026-1011<br /><br />
+                    <a href="mailto:info@ssdp.legal" class="flex items-center gap-2">
+                        <svg class="w-4 h-4">
+                            <use xlink:href="#icon-mail" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                        </svg>
+                        info@ssdp.legal
+                    </a>
+                    <a href="https://t.me/SSD_legal" target="_blank" class="flex items-center gap-2 mt-1">
+                        <svg class="w-4 h-4">
+                            <use xlink:href="#icon-send" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                        </svg>
+                        Telegram
+                    </a>
                 </div>
             </div>
-            <div class="lg:text-right">
+            <!-- <div class="lg:text-right">
                 info@ssdp.legal
-            </div>
+            </div> -->
         </div>
 
         <div class="py-8 border-t border-[#B3C1C8] text-center text-[#6e768a]">

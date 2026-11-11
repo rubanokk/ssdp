@@ -29,3 +29,27 @@
 .error {
   border-color: red !important;
 }
+
+.reveal{
+  opacity:0;
+  transform:translateY(26px);
+  transition:opacity .7s ease, transform .7s ease;
+  will-change:opacity, transform;
+}
+
+.reveal.visible{
+  opacity:1;
+  transform:translateY(0);
+}
+
+.parallax-layer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100%;
+  will-change: transform; /* сдвиг пойдёт на GPU */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}

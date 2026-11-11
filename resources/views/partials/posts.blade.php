@@ -1,4 +1,4 @@
-<div id="publications" class="px-4 lg:px-0">
+<div id="publications" class="px-4 lg:px-0 reveal">
     <div class="max-w-300 mx-auto py-20 lg:pt-30 lg:pb-34">
         <div class="max-w-245">
             <h2 class="text-4xl lg:text-5xl font-medium">{!! __('common.publications & insights') !!}</h2>

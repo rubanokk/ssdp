@@ -7,3 +7,6 @@ ssdp.legal@gmail.com
 zdlcjhpvpeobtuct
 
 4V&u$1KzB1f1
+
+/opt/php/8.4/bin/php-cgi artisan migrate --force                                                                                          
+ 

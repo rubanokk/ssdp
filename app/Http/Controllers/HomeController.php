@@ -12,7 +12,7 @@ class HomeController extends Controller
     public function index(): View
     {
         $posts = Post::where('published', '=', true)->limit(2)->get();
-        $practices = Practice::all();
+        $practices = Practice::where('published', '=', true)->limit(6)->get();
         return view('home.index', compact('posts', 'practices'));
     }
 }

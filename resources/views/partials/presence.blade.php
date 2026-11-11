@@ -20,8 +20,8 @@ $items = [
 $countries = [ __('countries.Argentina'), __('countries.Uruguay'), __('countries.United Kingdom'), __('countries.France'), __('countries.Netherlands'), __('countries.Belgium'), __('countries.Portugal'), __('countries.Spain'), __('countries.Austria'), __('countries.Cyprus'), __('countries.Serbia'), __('countries.Bulgaria'), __('countries.Hungary'), __('countries.Israel'), __('countries.Russia'), __('countries.Romania'), __('countries.Armenia'), __('countries.Kazakhstan'), __('countries.Turkey'), __('countries.China'), __('countries.Indonesia'), __('countries.Thailand'), __('countries.Singapore'), __('countries.Australia'), __('countries.New Zealand')];
 @endphp
 
-<div class="bg-[#F2F2F2] bg-no-repeat lg:bg-cover bg-top-right" style="background-image: url('/images/map.svg')">
-    <div id="presence" class="max-w-300 mx-auto py-16 lg:py-30 px-4 lg:px-0">
+<div class="bg-[#F2F2F2] bg-no-repeat lg:bg-cover bg-top bg-fixed" style="background-image: url('/images/map.svg')" >
+    <div id="presence" class="max-w-300 mx-auto py-16 lg:py-30 px-4 lg:px-0 reveal">
         <div class="max-w-245 px-4 lg:px-0">
             <h2 class="text-4xl lg:text-5xl font-medium"> {!! __('presence.title') !!}</h2>
             <!-- <p class="mt-5 text-lg">{!! __('presence.description') !!}</p> -->

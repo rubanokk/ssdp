@@ -7,12 +7,15 @@
 
 <div class="bg-[#F2F2F2] ">
     <div class="max-w-300 mx-auto py-24 lg:pt-30 lg:pb-25 px-4 lg:px-4 relative overflow-hidden">
-        <h1 @class(["text-5xl lg:text-[80px] lg:leading-21 font-medium mt-4 relative z-20", 'max-w-200'=> app()->getLocale() === 'en',
-            'max-w-280'=> app()->getLocale() === 'ru'])>
+        <h1 @class(["text-5xl font-medium mt-4 relative z-20", 'max-w-200 lg:text-[80px] lg:leading-21'=> app()->getLocale() === 'en',
+            'max-w-280 lg:text-[64px] lg:leading-18'=> app()->getLocale() === 'ru'])>
             {!! __('hero.title') !!}
         </h1>
         <p class="max-w-180 mt-5 text-xl">
             {!! __('hero.description') !!}
+        </p>
+        <p class="mt-4">
+            <a href="/about" class="link">{!! __('common.read_about_our_firm') !!}</a>
         </p>
         <div id="globe" class="w-20 h-20 lg:w-125 lg:h-125 absolute top-0 lg:right-0"></div>
     </div>

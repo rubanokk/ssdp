@@ -10,6 +10,7 @@ use App\Http\Controllers\PagesController;
 
 Route::localize(function () {
     Route::get('/', [HomeController::class, 'index']);
+    Route::get('/practices', [PracticesController::class, 'index']);
     Route::get('/practices/{practice}', [PracticesController::class, 'show']);
     Route::resource('posts', PostsController::class);
     Route::post('/leads', [LeadsController::class, 'store']);
