@@ -42,8 +42,9 @@
         </div>
     </div>
 </div>
-<div class="max-w-300 mx-auto px-4 lg:px-0 mb-10">
+<div class="max-w-300 mx-auto px-4 lg:px-0">
     <div class="max-w-180 mt-8 content-text">{!! $person->content !!}</div>
 </div>
+@include('partials/people')
 
 @endsection

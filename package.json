@@ -18,6 +18,7 @@
     },
     "dependencies": {
         "globe.gl": "^2.46.2",
-        "jquery": "^4.0.0"
+        "jquery": "^4.0.0",
+        "swiper": "^14.4.0"
     }
 }
