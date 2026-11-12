@@ -7,7 +7,7 @@
                 </svg>
             </a>
             <ul class="hidden lg:flex justify-center gap-8">
-                <li><a href="/#people">{!! __('common.people') !!}</a></li>
+                <li><a href="/people">{!! __('common.people') !!}</a></li>
                 <li><a href="/#expertise">{!! __('common.expertise') !!}</a></li>
                 <li><a href="/practices">{!! __('common.practices') !!}</a></li>
                 <li><a href="/#presence">{!! __('common.presence') !!}</a></li>
@@ -40,7 +40,7 @@
 <div id="mobile-menu"
     class="-translate-x-full flex flex-col transition fixed top-18 left-0 right-0 bottom-0  bg-white z-80 px-4 py-8">
     <ul class="flex flex-col gap-4 font-medium text-xl">
-        <li><a href="/#people">{!! __('common.people') !!}</a></li>
+        <li><a href="/people">{!! __('common.people') !!}</a></li>
         <li><a href="/#expertise">{!! __('common.expertise') !!}</a></li>
         <li><a href="/practices">{!! __('common.practices') !!}</a></li>
         <li><a href="/#presence">{!! __('common.presence') !!}</a></li>

@@ -20,7 +20,6 @@
         <div id="globe" class="w-20 h-20 lg:w-125 lg:h-125 absolute top-0 lg:right-0"></div>
     </div>
 </div>
-@include('partials/people')
 @include('partials/expertise')
 @include('partials/practices', ['practices' => $practices])
 @include('partials/presence')

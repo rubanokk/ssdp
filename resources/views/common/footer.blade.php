@@ -7,7 +7,7 @@
                     <use xlink:href="#icon-logo" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
                 </svg>
                 <div class="">
-                    SSD partners Ltd.<br>
+                    SSD Partners Ltd.<br>
                     1, Tamchy Special Financial Investment Territory (SFIT), M0001, Tamchy, Kyrgyz Republic<br>
                     Reg. № SFIT-RC-2026-1011<br /><br />
                     <a href="mailto:info@ssdp.legal" class="flex items-center gap-2">

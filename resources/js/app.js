@@ -3,3 +3,5 @@ import "./form"
 import "./mobile-menu"
 import "./globe"
 import "./reveal-animation"
+import "./swiper"
+

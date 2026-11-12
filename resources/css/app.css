@@ -53,3 +53,22 @@
   background-position: center center;
   background-size: cover;
 }
+
+.swiper-pagination {
+  text-align: left !important;
+  bottom: 0 !important;
+}
+
+.swiper-pagination-bullet {
+    border-radius: 0 !important;
+    margin: 0 !important;
+    margin-right: 12px !important;
+    height: 12px !important;
+    width: 12px !important;
+
+
+}
+
+.swiper-pagination-bullet-active {
+    background: var(--primary-red) !important;
+}
