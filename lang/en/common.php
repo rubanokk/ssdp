@@ -22,4 +22,5 @@ return [
     'privary_btn' => 'Accept',
     'read_about_our_firm' => 'Read about us',
     'read_more' => 'Read more',
+    'people' => 'Our team',
 ];

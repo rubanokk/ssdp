@@ -14,6 +14,7 @@ use MoonShine\MenuManager\MenuItem;
 use App\MoonShine\Resources\Leads\LeadsResource;
 use App\MoonShine\Resources\Practice\PracticeResource;
 use App\MoonShine\Resources\Page\PageResource;
+use App\MoonShine\Resources\Person\PersonResource;
 
 final class MoonShineLayout extends AppLayout
 {
@@ -37,6 +38,7 @@ final class MoonShineLayout extends AppLayout
             MenuItem::make(LeadsResource::class, 'Leads'),
             MenuItem::make(PracticeResource::class, 'Practices'),
             MenuItem::make(PageResource::class, 'Pages'),
+            MenuItem::make(PersonResource::class, 'People'),
         ];
     }
 

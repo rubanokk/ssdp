@@ -1,4 +1,4 @@
-<div id="expertise" class="max-w-300 mx-auto pt-16 lg:pt-30 px-4 lg:px-0">
+<div id="expertise" class="max-w-300 mx-auto pt-6 px-4 lg:px-0">
     <div class="flex flex-col lg:flex-row gap-4 justify-between lg:items-end reveal">
         <h2 class="text-4xl lg:text-5xl font-medium">{!! __('expertise.title') !!}</h2>
     </div>

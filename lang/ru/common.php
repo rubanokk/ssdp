@@ -22,4 +22,5 @@ return [
     'privary_btn' => 'Принять',
     'read_about_our_firm' => 'Подробнее о нас',
     'read_more' => 'Подробнее',
+    'people' => 'Наша команда',
 ];

@@ -31,7 +31,7 @@
     }
 
     a {
-        color: var(--red-primary);
+        color: var(--primary-red);
     }
 
     ol {
@@ -60,7 +60,7 @@
         top: 10px;
         width: 5px;
         height: 5px;
-        background-color: #ef8d53;
+        background-color: var(--primary-red);
     }
 }
 
