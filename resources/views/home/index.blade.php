@@ -14,9 +14,9 @@
         <p class="max-w-180 mt-5 text-xl">
             {!! __('hero.description') !!}
         </p>
-        <p class="mt-4">
+        <!-- <p class="mt-4">
             <a href="/about" class="link">{!! __('common.read_about_our_firm') !!}</a>
-        </p>
+        </p> -->
         <div id="globe" class="w-20 h-20 lg:w-125 lg:h-125 absolute top-0 lg:right-0"></div>
     </div>
 </div>

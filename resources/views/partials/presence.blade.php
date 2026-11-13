@@ -1,21 +1,25 @@
 @php
 $items = [
-[
-'title' => __('presence.tamchy'),
-'description' => __('presence.tamchy_desc'),
-],
-[
-'title' => __('presence.munich'),
-'description' => __('presence.munich_desc'),
-],
-[
-'title' => __('presence.dubai'),
-'description' => __('presence.dubai_desc'),
-],
-[
-'title' => __('presence.newyork'),
-'description' => __('presence.newyork_desc'),
-],
+    [
+    'title' => __('presence.tamchy'),
+    'description' => __('presence.tamchy_desc'),
+    ],
+    [
+    'title' => __('presence.munich'),
+    'description' => __('presence.munich_desc'),
+    ],
+    [
+    'title' => __('presence.dubai'),
+    'description' => __('presence.dubai_desc'),
+    ],
+    [
+    'title' => __('presence.newyork'),
+    'description' => __('presence.newyork_desc'),
+    ],
+    [
+    'title' => __('presence.moscow'),
+    'description' => __('presence.moscow_desc'),
+    ],
 ];
 $countries = [ __('countries.Argentina'), __('countries.Uruguay'), __('countries.United Kingdom'), __('countries.France'), __('countries.Netherlands'), __('countries.Belgium'), __('countries.Portugal'), __('countries.Spain'), __('countries.Austria'), __('countries.Cyprus'), __('countries.Serbia'), __('countries.Bulgaria'), __('countries.Hungary'), __('countries.Israel'), __('countries.Russia'), __('countries.Romania'), __('countries.Armenia'), __('countries.Kazakhstan'), __('countries.Turkey'), __('countries.China'), __('countries.Indonesia'), __('countries.Thailand'), __('countries.Singapore'), __('countries.Australia'), __('countries.New Zealand')];
 @endphp
@@ -26,11 +30,11 @@ $countries = [ __('countries.Argentina'), __('countries.Uruguay'), __('countries
             <h2 class="text-4xl lg:text-5xl font-medium"> {!! __('presence.title') !!}</h2>
             <!-- <p class="mt-5 text-lg">{!! __('presence.description') !!}</p> -->
         </div>
-        <div class="grid lg:grid-cols-4 gap-8 mt-9">
+        <div class="grid lg:grid-cols-5 gap-4 mt-9">
             @foreach ($items as $item)
-            <div class="flex flex-col h-70 lg:h-90 px-8 pb-8 pt-14 relative bg-white">
-                <div class="text-3xl lg:text-3xl font-medium">{{ $item['title'] }}</div>
-                <div class="mt-auto">{{ $item['description'] }}</div>
+            <div class="flex flex-col h-50 lg:h-70 px-4 pb-4 pt-8 relative bg-white">
+                <div class="text-2xl font-medium">{{ $item['title'] }}</div>
+                <div class="mt-auto text-sm">{{ $item['description'] }}</div>
             </div>
             @endforeach
         </div>

@@ -1,4 +1,4 @@
-<div id="practices" class="max-w-300 mx-auto py-20 lg:py-30 px-4 lg:px-0 reveal mb-6">
+<div id="practices" class="max-w-300 mx-auto py-10 lg:py-16 px-4 lg:px-0 reveal mb-6">
 
     <!-- <div class="grid lg:grid-cols-3 mt-9">
         @each('practices/practice', $practices, 'practice')
