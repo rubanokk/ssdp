@@ -8,26 +8,28 @@
                 </svg>
                 <div class="">
                     SSD Partners Ltd.<br>
-                    1, Tamchy Special Financial Investment Territory (SFIT), M0001, Tamchy, Kyrgyz Republic<br>
-                    Reg. № SFIT-RC-2026-1011
+                    119435, Москва, ул. Малая Пироговская 13 строение 1, П13, офис 303<br>
+                    <a href="mailto:info@ssdp.legal" class="flex items-center gap-2 mt-4">
+                        <svg class="w-4 h-4">
+                            <use xlink:href="#icon-mail" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                        </svg>
+                        info@ssdp.legal
+                    </a>
+                    <a href="https://t.me/SSD_legal" target="_blank" class="flex items-center gap-2 mt-1">
+                        <svg class="w-4 h-4">
+                            <use xlink:href="#icon-send" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
+                        </svg>
+                        Telegram
+                    </a>
                 </div>
+
             </div>
             <div class="lg:pt-6">
-                119435, Москва, ул. Малая Пироговская 13 строение 1, П13, офис 303
+                1, Tamchy Special Financial Investment Territory (SFIT), M0001, Tamchy, Kyrgyz Republic<br>
+                Reg. № SFIT-RC-2026-1011
             </div>
             <div class="lg:pt-6">
-                <a href="mailto:info@ssdp.legal" class="flex items-center gap-2">
-                    <svg class="w-4 h-4">
-                        <use xlink:href="#icon-mail" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
-                    </svg>
-                    info@ssdp.legal
-                </a>
-                <a href="https://t.me/SSD_legal" target="_blank" class="flex items-center gap-2 mt-1">
-                    <svg class="w-4 h-4">
-                        <use xlink:href="#icon-send" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
-                    </svg>
-                    Telegram
-                </a>
+
             </div>
         </div>
 

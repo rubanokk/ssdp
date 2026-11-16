@@ -1,20 +1,11 @@
-<div id="expertise" class="max-w-300 mx-auto pt-20 px-4 lg:px-0">
-    <div class="flex flex-col lg:flex-row gap-4 justify-between lg:items-end reveal">
+<div id="expertise" class="max-w-300 mx-auto pt-20 px-4 lg:px-0 reveal">
+    <div class="flex flex-col lg:flex-row gap-4 justify-between lg:items-end">
         <h2 class="text-4xl lg:text-5xl font-medium">{!! __('common.expertise') !!}</h2>
     </div>
 
     <div class="grid lg:grid-cols-2 gap-8 mt-8">
-        <div class="">
-            <p>SSD Partners – юридическая фирма, сопровождающая комплексные проекты по всему миру. Мы
-                консультируем по широкому кругу вопросов, включая структурирование сделок, частные вопросы,
-                криптобизнес, разрешение споров и вопросы нормотворчества.</p>
-            <p class="mt-2">Наша команда объединяет юристов со значительным опытом работы в таких юридических фирмах,
-                как Baker Botts, Clifford Chance и Latham &amp; Watkins, а также в IT-компаниях, инвестиционных
-                организациях, операционных бизнесах и семейных офисах. Наш опыт в юридическом консалтинге
-                дополняется практическим опытом работы в бизнесе.</p>
-            <p class="mt-2">Мы сочетаем персональный подход и эффективность бутиковой юридической фирмы с качеством
-                работы и вниманием к деталям на уровне ведущих международных юридических фирм. Наш приоритет –
-                находить практические решения сложных задач и добиваться результатов, отвечающих целям клиентов.</p>
+        <div class="content-text">
+           {!! $textAbout->content !!}
         </div>
         <div class="hidden lg:flex flex-col gap-4 items-end relative -mt-20">
             <div class="flex gap-4 items-end">

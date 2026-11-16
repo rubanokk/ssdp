@@ -23,4 +23,5 @@ return [
     'read_about_our_firm' => 'Подробнее о нас',
     'read_more' => 'Подробнее',
     'people' => 'Наша команда',
+    'all_publications' => 'Все публикации'
 ];

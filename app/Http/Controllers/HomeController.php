@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Page;
 use App\Models\Person;
 use Illuminate\View\View;
 use App\Models\Post;
@@ -15,6 +16,7 @@ class HomeController extends Controller
         $posts = Post::where('published', '=', true)->limit(2)->get();
         $practices = Practice::where('published', '=', true)->get();
         $people = Person::where('published', '=', true)->get();
-        return view('home.index', compact('posts', 'practices', 'people'));
+        $textAbout = Page::where('slug', '=', 'about')->first();
+        return view('home.index', compact('posts', 'practices', 'people', 'textAbout'));
     }
 }

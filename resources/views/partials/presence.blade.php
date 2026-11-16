@@ -1,6 +1,10 @@
 @php
 $items = [
     [
+    'title' => __('presence.moscow'),
+    'description' => __('presence.moscow_desc'),
+    ],
+    [
     'title' => __('presence.tamchy'),
     'description' => __('presence.tamchy_desc'),
     ],
@@ -15,10 +19,6 @@ $items = [
     [
     'title' => __('presence.newyork'),
     'description' => __('presence.newyork_desc'),
-    ],
-    [
-    'title' => __('presence.moscow'),
-    'description' => __('presence.moscow_desc'),
     ],
 ];
 $countries = [ __('countries.Argentina'), __('countries.Uruguay'), __('countries.United Kingdom'), __('countries.France'), __('countries.Netherlands'), __('countries.Belgium'), __('countries.Portugal'), __('countries.Spain'), __('countries.Austria'), __('countries.Cyprus'), __('countries.Serbia'), __('countries.Bulgaria'), __('countries.Hungary'), __('countries.Israel'), __('countries.Russia'), __('countries.Romania'), __('countries.Armenia'), __('countries.Kazakhstan'), __('countries.Turkey'), __('countries.China'), __('countries.Indonesia'), __('countries.Thailand'), __('countries.Singapore'), __('countries.Australia'), __('countries.New Zealand')];
