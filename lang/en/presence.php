@@ -12,5 +12,5 @@ return [
     'newyork' => 'New York, USA',
     'newyork_desc' => 'A key U.S. financial centre that reinforces the global positioning across capital, disputes and strategic transactions',
     'moscow' => 'Moscow, Russia',
-    'moscow_desc' => '',
+    'moscow_desc' => 'Coordination of legal matters in Russia and beyond. Legal advisory on investments, corporate structures and cross-border projects',
 ];

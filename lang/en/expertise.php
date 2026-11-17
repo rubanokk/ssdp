@@ -7,7 +7,7 @@ return [
     'experience' => '20+ years of experience in the legal market',
     'experience_desc' => 'Years of legal experience',
     'offices' => '4',
-    'offices_desc' => 'Offices: free-zone Tamchy (Kyrgyzstan), Munich, Dubai and New York',
+    'offices_desc' => 'Offices: Moscow, free-zone Tamchy (Kyrgyzstan), Munich, Dubai and New York',
     'jurisdictions' => '25+',
     'jurisdictions_desc' => 'Jurisdictions covered by our partner network',
     'partners' => '5',

@@ -21,7 +21,7 @@ $items = [
     'description' => __('presence.newyork_desc'),
     ],
 ];
-$countries = [ __('countries.Argentina'), __('countries.Uruguay'), __('countries.United Kingdom'), __('countries.France'), __('countries.Netherlands'), __('countries.Belgium'), __('countries.Portugal'), __('countries.Spain'), __('countries.Austria'), __('countries.Cyprus'), __('countries.Serbia'), __('countries.Bulgaria'), __('countries.Hungary'), __('countries.Israel'), __('countries.Russia'), __('countries.Romania'), __('countries.Armenia'), __('countries.Kazakhstan'), __('countries.Turkey'), __('countries.China'), __('countries.Indonesia'), __('countries.Thailand'), __('countries.Singapore'), __('countries.Australia'), __('countries.New Zealand')];
+$countries = [ __('countries.Argentina'), __('countries.Uruguay'), __('countries.United Kingdom'), __('countries.France'), __('countries.Netherlands'), __('countries.Belgium'), __('countries.Portugal'), __('countries.Spain'), __('countries.Austria'), __('countries.Cyprus'), __('countries.Serbia'), __('countries.Bulgaria'), __('countries.Hungary'), __('countries.Israel'), __('countries.Romania'), __('countries.Armenia'), __('countries.Kazakhstan'), __('countries.Turkey'), __('countries.China'), __('countries.Indonesia'), __('countries.Thailand'), __('countries.Singapore'), __('countries.Australia'), __('countries.New Zealand')];
 @endphp
 
 <div class="bg-[#F2F2F2] bg-no-repeat lg:bg-cover bg-top bg-fixed" style="background-image: url('/images/map.svg')" >
@@ -33,8 +33,8 @@ $countries = [ __('countries.Argentina'), __('countries.Uruguay'), __('countries
         <div class="grid lg:grid-cols-5 gap-4 mt-9">
             @foreach ($items as $item)
             <div class="flex flex-col h-50 lg:h-70 px-4 pb-4 pt-8 relative bg-white">
-                <div class="text-2xl font-medium">{{ $item['title'] }}</div>
-                <div class="mt-auto text-sm">{{ $item['description'] }}</div>
+                <div class="text-2xl font-medium lg:h-24">{{ $item['title'] }}</div>
+                <div class="mt-auto lg:mt-0 text-sm">{{ $item['description'] }}</div>
             </div>
             @endforeach
         </div>

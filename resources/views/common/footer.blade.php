@@ -8,7 +8,7 @@
                 </svg>
                 <div class="">
                     SSD Partners Ltd.<br>
-                    119435, Москва, ул. Малая Пироговская 13 строение 1, П13, офис 303<br>
+                    {!! __('common.address_russia') !!}<br>
                     <a href="mailto:info@ssdp.legal" class="flex items-center gap-2 mt-4">
                         <svg class="w-4 h-4">
                             <use xlink:href="#icon-mail" xmlns:xlink="http://www.w3.org/1999/xlink"></use>
@@ -25,8 +25,7 @@
 
             </div>
             <div class="lg:pt-6">
-                1, Tamchy Special Financial Investment Territory (SFIT), M0001, Tamchy, Kyrgyz Republic<br>
-                Reg. № SFIT-RC-2026-1011
+                {!! __('common.address_tamchy') !!}
             </div>
             <div class="lg:pt-6">
 

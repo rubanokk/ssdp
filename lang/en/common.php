@@ -23,5 +23,8 @@ return [
     'read_about_our_firm' => 'Read about us',
     'read_more' => 'Read more',
     'people' => 'Our team',
-    'all_publications' => 'All publications'
+    'all_publications' => 'All publications',
+    'address_russia' => '119435, Moscow, Malaya Pirogovskaya Street, 13, building 1, P13, office 303',
+    'address_tamchy' => '1, Tamchy Special Financial Investment Territory, M0001, Tamchy, Kyrgyz Republic',
+
 ];
